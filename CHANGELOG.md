@@ -2,6 +2,13 @@ runit Cookbook CHANGELOG
 ========================
 This file is used to list changes made in each version of the runit cookbook.
 
+v1.5.11 (2014-12-04)
+--------------------
+
+PR #57 - Fix for [COOK-4540](https://tickets.opscode.com/browse/COOK-4540)
+PR #61 - Fix for Issue #60 (60, not 61) prevent infinitive loop inside docker
+
+
 v1.5.10 (2014-03-07)
 --------------------
 PR #53- Fix runit RPM file location for Chef provisionless Centos 5.9 Box Image
